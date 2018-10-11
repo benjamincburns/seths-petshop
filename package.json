@@ -1,0 +1,27 @@
+{
+  "name": "pet-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --open=false",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.4.0",
+    "truffle-contract": "^3.0.6",
+    "truffle-sawtooth-seth-provider": "git://github.com/benjamincburns/truffle-sawtooth-seth-provider.git",
+    "web3": "^1.0.0-beta.36",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.9"
+  }
+}
